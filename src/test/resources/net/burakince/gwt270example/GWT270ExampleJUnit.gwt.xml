@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="GWT270Example">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='net.burakince.gwt270example.GWT270Example' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/GWT270Example/greet" class="net.burakince.gwt270example.server.GreetingServiceImpl" />
+
+</module>
